@@ -1,0 +1,63 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+$mobile : 720px;
+
+.wp-block-clpp-custom-list-plus  {
+  //border: 1px solid #000;
+  display: grid;
+  align-items: center;
+  text-align: center;
+
+  @media screen and (max-width: $mobile){
+      grid-template-columns: none !important;
+  }
+
+  a{
+    transition: 0.2s ease-in-out;
+    @media screen and (max-width: $mobile){
+      width: 100%;
+      box-sizing: border-box;
+    }
+    &:hover{
+
+    }
+  }
+
+
+  &>*{
+    //border:1px solid black;
+    margin:0 auto !important;
+  }
+  h2{
+    margin:0;
+
+    @media screen and (max-width: $mobile){
+      display: none;
+    }
+  }
+  ul{
+    //border: 1px solid;
+    padding: 0 !important;
+    list-style: none !important;
+    li{
+      line-height: 1;
+      &:before{
+        content: none;
+      }
+
+    }
+  }
+  ul.two{
+    width: 100%;
+    li{
+    }
+  }
+
+
+}
+
+

@@ -1,0 +1,18 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.edit-post-sidebar-header .components-tab-panel__tabs {
+  background: #f3f4f5; }
+  .edit-post-sidebar-header .components-tab-panel__tabs .active-tab {
+    box-shadow: inset 0 -3px #59524c;
+    font-weight: 600; }
+.edit-post-sidebar-header .components-panel__body-title button .dashicon {
+  order: -1;
+  margin: 0 10px 0 0; }
+.edit-post-sidebar-header .components-tab-panel__tab-content .wp-block-list-plus-image .is-destructive {
+  float: right; }
+
+/*# sourceMappingURL=editor.css.map */
